@@ -25,7 +25,8 @@ namespace FrequencyHash
                 key++;
             }
             Operation operation = new Operation();
-            operation.Frequency(hash);
+            //operation.Frequency(hash);
+            operation.Remove(hash, "are");
         }
     }
 }
